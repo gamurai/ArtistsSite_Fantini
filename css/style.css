@@ -1,0 +1,621 @@
+* { margin: 0; padding: 0; }
+/* HEADER */
+header {
+    background-color: #2c2a4a;
+    padding: 15px 0px 15px 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 15;
+}
+header a{
+    color: #dabfff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+header div.links{
+    float: right;
+    margin-right: 3rem;
+}
+header img{
+    margin-left: 3rem;
+}
+header input{
+    border-radius: 10px;
+    height: 2rem;
+    width: 15rem;
+    margin-top: 0.5rem;
+    margin-right: 5rem;
+}
+
+/* FOOTER */
+footer {
+    background-color: #2c2a4a;
+    padding: 15px 0px 15px 0px;
+}
+footer a{
+    color: #dabfff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+footer div.links{
+    float: right;
+    margin-right: 3rem;
+    margin-top: 0.5rem;
+}
+footer img{
+    margin-left: 3rem;
+}
+
+/* INDEX BODY */
+/* TRENDING ARTISTS */
+section#featured-artists{
+    background-color: #907ad6;
+    padding-top: 50px;
+}
+section#featured-artists h2{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 2rem;
+}
+section#featured-artists div#articles{
+    display: flex;
+    justify-content: center;
+}
+section#featured-artists article{
+    background-color: #2c2a4a;
+    /* display: inline-flex; */
+    justify-content: center;
+    width: 300px;
+    height: 359px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+section#featured-artists article:hover {
+    transition: scale 1s;
+    scale: 1.1 1.1 1.1;
+  }
+
+section#featured-artists article img#banner-img{
+    width: 100%; 
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    max-height: 9rem;
+}
+section#featured-artists article img#profile-img{
+    width: 25%; 
+    border-radius: 50%;
+    max-height: 9rem;
+    position: relative;
+    bottom:2rem;
+    left: 7rem;
+}
+section#featured-artists article p{
+    text-align: center;
+    color: #907ad6;
+    margin-bottom: 1.5rem;
+}
+section#featured-artists article div button{
+    background-color:  #907ad6;
+    color: white;
+    border-style: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+section#featured-artists article div button:hover{
+    background-color:  #222044;
+    cursor: pointer;
+    color: white;
+}
+section#featured-artists article div{
+    display: flex;
+    justify-content: center;
+}
+
+/* FUNDINGS */
+section#newest-fundings{
+    background-color: #907ad6;
+    padding-top: 50px;
+}
+section#newest-fundings h2{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 50px;
+}
+
+/* COMMUNITY */
+section#community{
+    background-color: #4f35a7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section#community h2{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 50px;
+}
+section#community p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+section#community div{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+section#community button{
+    background-color:  #2c2a4a;
+    color: white;
+    border-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+section#community button:hover{
+    background-color:  #7a59e7;
+    cursor: pointer;
+    color: white;
+}
+
+/* HERO */
+section#hero{
+    background-image: url('../images/devn-JmmXKlJ8MKQ-unsplash.jpg');
+    background-size: cover;
+    height: 40rem;
+}
+section#hero h1{
+    color:white;
+    text-align: center;
+    font-size: 5rem;
+}
+section#hero p{
+    color:white;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+section#hero div#hero-content{
+    padding-top: 200px;
+    position: relative;
+    z-index: 10;
+}
+section#hero div#hero-buttons{
+    display: flex;
+    justify-content: center;
+}
+section#hero div button{
+    background-color:  #2c2a4a;
+    color: white;
+    border-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+section#hero div button:hover{
+    background-color:  #907ad6;
+    cursor: pointer;
+    color: white;
+}
+section#hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40rem;
+    background: rgba(0, 0, 0, .6);
+}
+
+/* ABOUT BODY */
+section#about-community{
+    background-color: #907ad6;
+}
+section#about-community div{
+    display: flex;
+    justify-content: center;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    padding-bottom: 50px;
+}
+section#about-community div article{
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+section#about-community h2{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+section#about-community p#description{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-bottom: 30px;
+}
+
+/*QUESTIONS SECTION*/
+section#questions{
+    background-color: #dabfff;
+    padding-bottom: 50px;
+}
+section#questions h2{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+section#questions p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-bottom: 30px;
+}
+section#questions div{
+    display: flex;
+    justify-content: center;
+}
+section#questions div button{
+    background-color:  #2c2a4a;
+    color: white;
+    border-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+section#questions div button:hover{
+    background-color:  #907ad6;
+    cursor: pointer;
+    color: white;
+}
+
+/* EXPLORE BODY */
+main#explore section#featured-artists h2{
+    margin-top: 5rem;
+}
+
+main#explore section#featured-artists article:hover {
+    transition: scale 1s;
+    scale: 1.1 1.1 1.1;
+  }
+
+main#explore section#search-results{
+    background-color: #907ad6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+main#explore section#search-results h2{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 2rem;
+}
+
+main#explore section#search-results article:hover {
+    transition: scale 1s;
+    scale: 1.1 1.1 1.1;
+  }
+
+main#explore section#search-results div#result-articles{
+    display: flex;
+    justify-content: center;
+}
+main#explore section#search-results article{
+    background-color: #2c2a4a;
+    /* display: inline-flex; */
+    justify-content: center;
+    width: 300px;
+    height: 359px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+main#explore section#search-results article img#banner-img{
+    width: 100%; 
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    max-height: 9rem;
+}
+main#explore section#search-results article img#profile-img{
+    width: 25%; 
+    border-radius: 50%;
+    max-height: 9rem;
+    position: relative;
+    bottom:2rem;
+    left: 7rem;
+}
+main#explore section#search-results article p{
+    text-align: center;
+    color: #907ad6;
+    margin-bottom: 1.5rem;
+}
+main#explore section#search-results article div button{
+    background-color:  #907ad6;
+    color: white;
+    border-style: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+main#explore section#search-results article div button:hover{
+    background-color:  #222044;
+    cursor: pointer;
+    color: white;
+}
+main#explore section#search-results article div{
+    display: flex;
+    justify-content: center;
+}
+
+section#search-results div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    padding: 10px;
+  }
+
+  section#search-results div article {
+    align-self: center;
+    justify-self: center;
+  }
+
+  /* section#search-results div div {
+    padding: 20px 0;
+  } */
+
+/* LOGIN BODY */
+main#login section{
+    background-color: #907ad6;
+    padding-top:180px;
+    padding-bottom:100px;
+    min-height: 100vh;
+}
+main#login section div#container{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+main#login section div#left-panel{
+    background-color: #2c2a4a;
+    text-align: center;
+    color: #dabfff;
+}
+main#login section div#right-panel{
+    background-color: #dabfff;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+main#login section div#left-panel button{
+    background-color:  #2c2a4a;
+    color: white;
+    border-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-color: black;
+    border-style: solid;
+}
+main#login section div#left-panel button:hover{
+    background-color:  #907ad6;
+    cursor: pointer;
+    color: white;
+}
+main#login section div#left-panel h2{
+    padding-top: 12rem;
+}
+main#login section div#left-panel p{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 2rem;
+    width: 300px;
+    padding-bottom: 2rem;
+}
+main#login section div#right-panel h2{
+    padding-top: 8rem;
+}
+main#login section div#right-panel p{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 400px;
+}
+main#login section div#right-panel input[type=text],input[type=password]{
+    /*width: 100%; */
+    width: 300px;
+}
+main#login section div#right-panel input[type=submit]{
+    background-color:  #2c2a4a;
+    color: white;
+    border-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    border-color: black;
+    border-style: solid;
+}
+main#login section div#right-panel input[type=submit]:hover{
+    background-color:  #907ad6;
+    cursor: pointer;
+    color: white;
+}
+
+/* SIGNUP BODY */
+main#signup section{
+    background-color: #907ad6;
+    padding-top:180px;
+    padding-bottom:100px;
+    min-height: 100vh;
+}
+main#signup section div#container{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+main#signup section div#left-panel{
+    background-color: #dabfff;
+    text-align: center;
+}
+main#signup section div#right-panel{
+    background-color: #2c2a4a;
+    color: #dabfff;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+main#signup section div#right-panel button{
+    background-color:  #2c2a4a;
+    color: white;
+    border-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-color: black;
+    border-style: solid;
+}
+main#signup section div#right-panel button:hover{
+    background-color:  #907ad6;
+    cursor: pointer;
+    color: white;
+}
+main#signup section div#right-panel h2{
+    padding-top: 12rem;
+}
+main#signup section div#right-panel p{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 2rem;
+    width: 300px;
+    padding-bottom: 2rem;
+}
+main#signup section div#left-panel h2{
+    padding-top: 8rem;
+}
+main#signup section div#left-panel p{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 400px;
+}
+main#signup section div#left-panel input[type=text],input[type=password]{
+    /*width: 100%; */
+    width: 300px;
+}
+main#signup section div#left-panel input[type=submit]{
+    background-color:  #2c2a4a;
+    color: white;
+    border-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    border-color: black;
+    border-style: solid;
+}
+main#signup section div#left-panel input[type=submit]:hover{
+    background-color:  #907ad6;
+    cursor: pointer;
+    color: white;
+}
+
+/* CONTACT BODY */
+main#contact section{
+    background-color: #907ad6;
+    padding-top:180px;
+    padding-bottom:100px;
+    min-height: 100vh;
+    text-align: center;
+}
+main#contact section div#container{
+    display: flex;
+    justify-content: center;
+    height: 520px;
+}
+
+main#contact section div#panel{
+    background-color: #2c2a4a;
+    color: #dabfff;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+
+main#contact section div#panel h1{
+    margin-bottom:1em;
+    margin-top:1em;
+}
+
+main#contact section div#panel input[type=text], input[type=email]{
+    margin-bottom: 1em;
+    border-radius: 5px;
+    height: 30px;
+    width: 280px;
+}
+
+main#contact section div#panel select{
+    margin-bottom: 1em;
+    border-radius: 5px;
+    height: 30px;
+    width: 280px;
+}
+
+main#contact section div#panel textarea{
+    margin-bottom: 1em;
+    border-radius: 5px;
+    width: 280px;
+}
+
+main#contact section div#panel button{
+    background-color:  #2c2a4a;
+    color: white;
+    border-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-color: black;
+    border-style: solid;
+}
+main#contact section div#panel button:hover{
+    background-color:  #907ad6;
+    cursor: pointer;
+    color: white;
+}
