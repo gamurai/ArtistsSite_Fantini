@@ -75,6 +75,7 @@ section#featured-artists article{
 
 .card-artist{
     width: 18rem;
+    margin-bottom: 1em;
 }
 
 .card-artist, .card-artist li{
@@ -431,22 +432,6 @@ main#explore section#search-results article div{
     justify-content: center;
 }
 
-section#search-results div {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 20px;
-    padding: 10px;
-  }
-
-  section#search-results div article {
-    align-self: center;
-    justify-self: center;
-  }
-
-  /* section#search-results div div {
-    padding: 20px 0;
-  } */
-
 /* LOGIN BODY */
 main#login section{
     background-color: #907ad6;
@@ -681,4 +666,105 @@ main#contact section div#panel button:hover{
     background-color:  #907ad6;
     cursor: pointer;
     color: white;
+}
+
+/*PROFILE*/
+.profile{
+    padding-top: 100px;
+}
+
+.profile--header {
+    background-color: #907ad6;
+}
+
+.profile--header--banner-profile{
+    width: 100%;
+    height: 400px;
+}
+
+.profile--header--top {
+    position: relative;
+    top: -100px;
+    left: 300px;
+}
+
+.profile--header--top--username {
+    color: white;
+}
+
+.profile--header--top--likes-section--likes {
+    color:#dabfff;
+}
+
+.profile--header--bottom {
+    position: relative;
+    top: -80px;
+    left: 300px;
+}
+
+.profile--header--bottom--button{
+    width: 100px;
+    height: 40px;
+}
+
+.profile--content{
+    background-color: #907ad6;
+}
+
+.profile--content--header-extension {
+    position: relative;
+    top: -180px;
+}
+
+.profile--content--header-extension--profile-picture{
+    width: 250px;
+    height: 250px;
+}
+
+.profile--content--header-extension--profile-description{
+    position: relative;
+    top: 140px;
+    height: 100px;
+}
+
+.profile--content--body{
+    position: relative;
+    top: -130px;
+}
+
+.profile--content--body--left--top{
+    background-color:#dabfff;
+    border-radius: 10px;
+    height: 250px;
+}
+
+.profile--content--body--left--bottom{
+    background-color:#dabfff;
+    border-radius: 10px;
+    height: 250px;
+}
+
+.profile--content--body--right{
+    background-color:#dabfff;
+    border-radius: 10px;
+}
+
+.profile--content--body--right--donation-buttons{
+    width: 40em;
+}
+
+.profile--content--body--right--name-input {
+    width: 40em;
+}
+
+.profile--content--body--right--email-input {
+    width: 40em;
+}
+
+.profile--content--body--right--message-input {
+    width: 40em;
+}
+
+.profile--content--body--right--donate-button {
+    width: 40em;
 }
