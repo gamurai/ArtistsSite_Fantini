@@ -1,0 +1,22 @@
+.social-links {
+  height: 540px;
+  padding: 100px;
+  background-color: #7b7be6; }
+
+.social-links--header > h1 {
+  font-size: 68px; }
+
+.social-links--content {
+  background-color: #d14040; }
+
+.social-links--newsletter {
+  background-color: #169127; }
+
+.social-links--newsletter--label {
+  font-size: 22.66667px; }
+
+.social-links--newsletter--input:hover {
+  background-color: #7b7be6; }
+
+.social-links--newsletter--button {
+  background-color: #a3a308; }

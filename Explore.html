@@ -4,21 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
 <body>
     <header> 
-        <!-- LOGO HERE -->
-        <img src="images/default-logo.png" alt="" width="50" height="50">
-        
-        <div class="links">
-            <input type="text" placeholder="Explore artists">
-            <a href="Explore.html" class="text-header">Explore</a>
-            <a href="Login.html" class="text-header">Login</a>
-            <a href="Signup.html" class="text-header">Sign up</a>
-        </div>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="Index.html">
+                <img src="images/default-logo.png" width="50" height="50" alt="">
+              </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Explore artists" aria-label="Search">
+              </form>
+              <ul class="navbar-nav float-right">
+                <li class="nav-item active">
+                    <a href="Explore.html" class="text-header">Explore</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Login.html" class="text-header">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Signup.html" class="text-header">Sign up</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
     </header>
 
     <main id="explore">
@@ -26,8 +46,8 @@
             <h2>TRENDING ARTISTS</h2>
             <div id="articles">
                 <article>
-                    <img id="banner-img" src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
-                    <img id="profile-img" src="images/1-intro-photo-final.jpg" alt="">
+                    <img src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
+                    <img src="images/1-intro-photo-final.jpg" alt="">
                     <p for="">AWESOME DRAWER</p>
                     <p for="">FOLLOWS: 157</p>
                     <div>
@@ -36,8 +56,8 @@
                     </div>
                 </article>
                 <article>
-                    <img id="banner-img" src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
-                    <img id="profile-img" src="images/1-intro-photo-final.jpg" alt="">
+                    <img src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
+                    <img src="images/1-intro-photo-final.jpg" alt="">
                     <p for="">AWESOME DRAWER</p>
                     <p for="">FOLLOWS: 157</p>
                     <div>
@@ -46,8 +66,8 @@
                     </div>
                 </article>
                 <article>
-                    <img id="banner-img" src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
-                    <img id="profile-img" src="images/1-intro-photo-final.jpg" alt="">
+                    <img src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
+                    <img src="images/1-intro-photo-final.jpg" alt="">
                     <p for="">AWESOME DRAWER</p>
                     <p for="">FOLLOWS: 157</p>
                     <div>
@@ -56,8 +76,8 @@
                     </div>
                 </article>
                 <article>
-                    <img id="banner-img" src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
-                    <img id="profile-img" src="images/1-intro-photo-final.jpg" alt="">
+                    <img src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
+                    <img src="images/1-intro-photo-final.jpg" alt="">
                     <p for="">AWESOME DRAWER</p>
                     <p for="">FOLLOWS: 157</p>
                     <div>
@@ -71,8 +91,8 @@
             <h2>SEARCH RESULTS</h2>
             <div>
                 <article>
-                    <img id="banner-img" src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
-                    <img id="profile-img" src="images/1-intro-photo-final.jpg" alt="">
+                    <img src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
+                    <img src="images/1-intro-photo-final.jpg" alt="">
                     <p for="">AWESOME DRAWER</p>
                     <p for="">FOLLOWS: 157</p>
                     <div>
@@ -81,8 +101,8 @@
                     </div>
                 </article>
                 <article>
-                    <img id="banner-img" src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
-                    <img id="profile-img" src="images/1-intro-photo-final.jpg" alt="">
+                    <img src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
+                    <img src="images/1-intro-photo-final.jpg" alt="">
                     <p for="">AWESOME DRAWER</p>
                     <p for="">FOLLOWS: 157</p>
                     <div>
@@ -91,8 +111,8 @@
                     </div>
                 </article>
                 <article>
-                    <img id="banner-img" src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
-                    <img id="profile-img" src="images/1-intro-photo-final.jpg" alt="">
+                    <img src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
+                    <img src="images/1-intro-photo-final.jpg" alt="">
                     <p for="">AWESOME DRAWER</p>
                     <p for="">FOLLOWS: 157</p>
                     <div>
@@ -101,8 +121,8 @@
                     </div>
                 </article>
                 <article>
-                    <img id="banner-img" src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
-                    <img id="profile-img" src="images/1-intro-photo-final.jpg" alt="">
+                    <img src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
+                    <img src="images/1-intro-photo-final.jpg" alt="">
                     <p for="">AWESOME DRAWER</p>
                     <p for="">FOLLOWS: 157</p>
                     <div>
@@ -111,8 +131,8 @@
                     </div>
                 </article>
                 <article>
-                    <img id="banner-img" src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
-                    <img id="profile-img" src="images/1-intro-photo-final.jpg" alt="">
+                    <img src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
+                    <img src="images/1-intro-photo-final.jpg" alt="">
                     <p for="">AWESOME DRAWER</p>
                     <p for="">FOLLOWS: 157</p>
                     <div>
@@ -121,8 +141,8 @@
                     </div>
                 </article>
                 <article>
-                    <img id="banner-img" src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
-                    <img id="profile-img" src="images/1-intro-photo-final.jpg" alt="">
+                    <img src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
+                    <img src="images/1-intro-photo-final.jpg" alt="">
                     <p for="">AWESOME DRAWER</p>
                     <p for="">FOLLOWS: 157</p>
                     <div>
@@ -131,8 +151,8 @@
                     </div>
                 </article>
                 <article>
-                    <img id="banner-img" src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
-                    <img id="profile-img" src="images/1-intro-photo-final.jpg" alt="">
+                    <img src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
+                    <img src="images/1-intro-photo-final.jpg" alt="">
                     <p for="">AWESOME DRAWER</p>
                     <p for="">FOLLOWS: 157</p>
                     <div>
@@ -141,8 +161,8 @@
                     </div>
                 </article>
                 <article>
-                    <img id="banner-img" src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
-                    <img id="profile-img" src="images/1-intro-photo-final.jpg" alt="">
+                    <img src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
+                    <img src="images/1-intro-photo-final.jpg" alt="">
                     <p for="">AWESOME DRAWER</p>
                     <p for="">FOLLOWS: 157</p>
                     <div>
@@ -151,8 +171,8 @@
                     </div>
                 </article>
                 <article>
-                    <img id="banner-img" src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
-                    <img id="profile-img" src="images/1-intro-photo-final.jpg" alt="">
+                    <img  src="images/claudio-testa-qpemSW6_1Z0-unsplash.jpg" alt="">
+                    <img src="images/1-intro-photo-final.jpg" alt="">
                     <p for="">AWESOME DRAWER</p>
                     <p for="">FOLLOWS: 157</p>
                     <div>

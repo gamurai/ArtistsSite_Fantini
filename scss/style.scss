@@ -1,0 +1,36 @@
+$base-height: 1080px;
+$bg-color-base: rgb(123, 123, 230);
+$bg-color-content: rgb(209, 64, 64);
+$bg-color-newsletter: rgb(22, 145, 39);
+$base-font-size: 34px;
+$buttons-color: rgb(163, 163, 8);
+
+.social-links{
+    height: $base-height / 2;
+    padding: 100px;
+    background-color: $bg-color-base;
+}
+
+.social-links--header > h1{
+    font-size: $base-font-size * 2;
+}
+
+.social-links--content{
+    background-color: $bg-color-content;
+}
+
+.social-links--newsletter{
+    background-color: $bg-color-newsletter;
+}
+
+.social-links--newsletter--label{
+    font-size: $base-font-size / 1.5;
+}
+
+.social-links--newsletter--input:hover{
+    background-color: $bg-color-base;
+}
+
+.social-links--newsletter--button{
+    background-color: $buttons-color;
+}
