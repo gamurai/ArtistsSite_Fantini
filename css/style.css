@@ -489,8 +489,8 @@ main#login section div#right-panel h2{
 main#login section div#right-panel p{
     margin-left: 2rem;
     margin-right: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    /* padding-top: 2rem;
+    padding-bottom: 2rem; */
     width: 400px;
 }
 main#login section div#right-panel input[type=text],input[type=password]{
@@ -574,8 +574,8 @@ main#signup section div#left-panel h2{
 main#signup section div#left-panel p{
     margin-left: 2rem;
     margin-right: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    /* padding-top: 2rem;
+    padding-bottom: 2rem; */
     width: 400px;
 }
 main#signup section div#left-panel input[type=text],input[type=password]{
@@ -705,6 +705,15 @@ main#contact section div#panel button:hover{
 .profile--header--bottom--button{
     width: 100px;
     height: 40px;
+    background-color: #2c2a4a;
+    color: white;
+}
+
+.profile--header--bottom--button :hover{
+    width: 100px;
+    height: 40px;
+    background-color: #7a59e7;;
+    color: white;
 }
 
 .profile--content{
@@ -750,10 +759,17 @@ main#contact section div#panel button:hover{
 }
 
 .profile--content--body--right--donation-buttons{
-    width: 40em;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-.profile--content--body--right--name-input {
+.profile--content--body--right--donation-button{
+    width: 25px;
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+}
+
+/* .profile--content--body--right--name-input {
     width: 40em;
 }
 
@@ -767,4 +783,4 @@ main#contact section div#panel button:hover{
 
 .profile--content--body--right--donate-button {
     width: 40em;
-}
+} */
